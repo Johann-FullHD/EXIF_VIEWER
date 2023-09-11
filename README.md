@@ -5,12 +5,12 @@ Copy code
 Dies ist ein einfaches Beispielprojekt, das zeigt, wie man `py2exe` verwendet, um Python-Skripte in ausführbare Windows-EXE-Dateien umzuwandeln.
 
 ## Voraussetzungen
-
 - Python: Du musst Python auf deinem System installiert haben.
 - pip: Du benötigst pip, um Python-Pakete zu installieren.
 
 ## Einschränkungen
-Beachte, dass py2exe einige Einschränkungen hat und möglicherweise nicht mit allen Python-Bibliotheken oder -Funktionen kompatibel ist. Insbesondere Bibliotheken, die dynamisch geladene Module verwenden oder Python-Code zur Laufzeit generieren, können Schwierigkeiten bereiten.
+Beachte, dass py2exe einige Einschränkungen hat und möglicherweise nicht mit allen Python-Bibliotheken oder -Funktionen kompatibel ist.
+Insbesondere Bibliotheken, die dynamisch geladene Module verwenden oder Python-Code zur Laufzeit generieren, können Schwierigkeiten bereiten.
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen findest du in der LICENSE
