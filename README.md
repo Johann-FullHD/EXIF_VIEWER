@@ -1,46 +1,70 @@
-markdown
-Copy code
-# Py2exe Example
+# EXIF Viewer
 
-Dies ist ein einfaches Beispielprojekt, das zeigt, wie man `py2exe` verwendet, um Python-Skripte in ausführbare Windows-EXE-Dateien umzuwandeln.
+EXIF Viewer is a simple utility designed to provide an overview of EXIF data embedded within image files. With this tool, you can view metadata such as camera settings, geotags, timestamps, and other information that is stored in the image files you capture. 
 
-## Voraussetzungen
-- Python: Du musst Python auf deinem System installiert haben.
-- pip: Du benötigst pip, um Python-Pakete zu installieren.
+## Features
 
-## Einschränkungen
-Beachte, dass py2exe einige Einschränkungen hat und möglicherweise nicht mit allen Python-Bibliotheken oder -Funktionen kompatibel ist.
-Insbesondere Bibliotheken, die dynamisch geladene Module verwenden oder Python-Code zur Laufzeit generieren, können Schwierigkeiten bereiten.
+- **Easy-to-use Interface:** Quick and intuitive access to EXIF data.
+- **Compact**: Lightweight tool with minimal dependencies.
+- **Cross-platform**: Runs on any platform that supports Python.
 
-## Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen findest du in der LICENSE
+## Prerequisites
 
-## Installation als EXE
-
-1. Lade dir die .exe Datei herunter
-2. Führe sie aus
+- **Python**: Ensure you have Python installed on your system.
+- **Dependencies**: All required libraries are listed in `requirements.txt`
 
 ## Installation
 
-1. Klone dieses Repository auf deinen Computer.
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/Johann-FullHD/EXIF_VIEWER.git
+```
+2. Navigate to the project directory:
+```bash
+cd EXIF_VIEWER
+```
+3. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
-2. Navigiere zum Verzeichnis des Projekts in der Kommandozeile.
+## Usage
 
-3. Installiere `py2exe` mithilfe von pip:
+To view the EXIF data from image files, simply run the script with the image file as an argument:
+```bash
+python exif_viewer.py sample.jpg
+```
+Replace `sample.jpg` with the path to your image file. All common formats are supported.
 
-pip install py2exe
+## Compatibility
+
+EXIF Viewer is compatible with most image formats that contain EXIF data, including but not limited to:
+
+- JPEG
+- TIFF
+- PNG (if EXIF data is present)
+- RAW image formats (certain types may require additional libraries)
+
+This tool is designed to run on:
+- Windows
+- macOS
+- Linux
+
+As long as Python is installed and the necessary dependencies are met, EXIF Viewer should work across these platforms.
 
 
-## Verwendung
+## License
 
-1. Bearbeite die `main.py`-Datei, um deine Python-Skriptdatei(en) anzugeben, die in eine EXE-Datei umgewandelt werden sollen. 
-2. Die ausführbare Datei und alle erforderlichen Dateien werden im dist-Verzeichnis erstellt.
-3. Führe die erstellte EXE-Datei im dist-Verzeichnis aus, um dein Python-Programm zu starten.
+EXIF Viewer is released under the [GNU-License](https://github.com/Johann-FullHD/EXIF_VIEWER/blob/main/LICENSE). For more information, see the [License](https://github.com/Johann-FullHD/EXIF_VIEWER/blob/main/LICENSE) file.
 
-```python
-from distutils.core import setup
-import py2exe
+## Contributing
 
-setup(console=['main.py'])
-python setup.py py2exe
+Contributions are welcome to improve the application's functionality, extend support for other operating systems, or enhance the user interface. You can contribute by submitting a [pull requests](https://github.com/Johann-FullHD/EXIF_VIEWER/pulls) or reporting bugs and suggestions in the [issue tracker](https://github.com/Johann-FullHD/EXIF_VIEWER/issues). For professional inquiries or potential collaborations, please get in touch via email.
 
+
+## Contact Information
+
+For any additional questions or feedback, feel free to reach out to me:
+- **Johann Kramer**
+- **Email**: [kjohann1908@gmail.com](mailto:kjohann1908@gmail.com)
+- **Instagram:** [trainspotter.dresden](https://www.instagram.com/trainspotter.dresden/)
