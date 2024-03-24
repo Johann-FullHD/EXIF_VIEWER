@@ -1,4 +1,5 @@
 # EXIF Viewer
+_Version 1 | 24.03.2024_
 
 EXIF Viewer is a simple utility designed to provide an overview of EXIF data embedded within image files. With this tool, you can view metadata such as camera settings, geotags, timestamps, and other information that is stored in the image files you capture. 
 
